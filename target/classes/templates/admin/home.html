@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Home</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   
+   
+   <link href="https://fonts.googleapis.com/css2?family=Kotta+One&display=swap" rel="stylesheet">
+  
+  <style type="text/css">
+  
+  body{
+  margin: 0;
+  padding: 0;
+   height: 100%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgb(104, 145, 162), rgb(12, 97, 33));
+  }
+  .container{
+    background-color: #3a3a3aa2;
+    background-image: none;
+    border: 1px solid #FFEB3B;
+    border-radius: 9px;
+    height: 300px;
+    width:600px;
+    
+}
+
+</style>
+</head>
+
+<body>
+<br/>
+ <br/>
+ <br/>
+ <br/>
+ <br/>
+<br/>
+<div align="center" class="weight" style="font-family: 'Kotta One', serif;">
+	<div class="container">
+	<br/>
+		<form th:action="@{/logout}" method="get">
+			<button class="badge badge-pill btn-danger" name="registration"
+				type="Submit"><h4>Logout</h4></button>
+				<br/>
+		</form>
+		<div align="center">
+		</div>
+		<div class="panel-group" style="margin-top:40px; color:#c9c9c9">
+			<!--  <div class="panel panel-primary">
+				<div class="panel-heading">-->
+					<span th:utext="${userName}"></span>
+				</div>
+				<div class="panel-body">
+				<h3>Hello SpringSecurityMysql!</h3>
+				</div>
+				<br/>
+				<br/>
+				<p class="admin-message-text text-center" style="color:#c9c9c9" th:utext="${adminMessage}"></p>
+			
+			</div>
+		</div>
+	
+<br/>
+ <br/>
+ <br/>
+ <br/>
+ <br/>
+<br/>
+ <br/>
+ <br/>
+ <br/>
+ <br/>
+
+
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+/Users/andrey/eclipse-workspace/SpringSecurityMysql/src/main/java/com/company/repository/RoleRepository.java
+/Users/andrey/eclipse-workspace/SpringSecurityMysql/src/main/java/com/company/model/Role.java
+/Users/andrey/eclipse-workspace/SpringSecurityMysql/src/main/java/com/company/repository/UserRepository.java
+/Users/andrey/eclipse-workspace/SpringSecurityMysql/src/main/java/com/company/model/User.java
+/Users/andrey/eclipse-workspace/SpringSecurityMysql/src/main/java/com/company/controller/LoginController.java
+/Users/andrey/eclipse-workspace/SpringSecurityMysql/src/main/java/com/company/service/UserService.java
+/Users/andrey/eclipse-workspace/SpringSecurityMysql/src/main/java/com/company/config/SecurityConfiguration.java
+/Users/andrey/eclipse-workspace/SpringSecurityMysql/src/main/java/com/company/config/WebMvcConfig.java
+/Users/andrey/eclipse-workspace/SpringSecurityMysql/src/main/java/com/company/SpringSecurityMysqlApplication.java
+/Users/andrey/eclipse-workspace/SpringSecurityMysql/src/main/java/com/company/service/impl/UserServiceImpl.java
